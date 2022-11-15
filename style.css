@@ -51,7 +51,8 @@ body{
 /* section */
 
 
-section{
+#col_0{
+    color: var(--color4);
     display: flex;
     justify-content: space-between;
     padding: 1rem 7rem;
@@ -105,4 +106,27 @@ section{
     background: none;
 }
 
+
+/*                   class reduction                  */
+
+.red{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    height: 100%;
+    margin-top: 5rem;
+}
+
+.red_2{
+    padding: 10px;
+    
+}
+.im-1{
+    
+}
+
+.imager{
+    border-radius: 1rem;
+    height: 6cm;
+}
 
