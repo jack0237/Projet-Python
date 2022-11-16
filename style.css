@@ -11,7 +11,7 @@
     --color8:#00d9ff ;
     --color9:#4400ff ;
     --color10:#0044ff ;
-    --color11:#ff0080 ;
+    --color11:#ff008052 ;
     --color12:#fc0061 ;
     --color13:#ff0000 ;
 }
@@ -130,3 +130,13 @@ body{
     height: 6cm;
 }
 
+
+
+.pro-ced{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#col_2{
+    background-color: var(--color11);
+}
