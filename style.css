@@ -2,7 +2,7 @@
 
 :root{
     --color1:#0a0906 ;
-    --color2:#e3e0e0 ;
+    --color2:#cfcaca ;
     --color3:#fc6500 ;
     --color4:#fffb00 ;
     --color5:#3cff00 ;
@@ -29,7 +29,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 5rem;
+    padding: 0rem 2rem;
     width: 100%;
 }
 
@@ -39,6 +39,8 @@ body{
     display: flex;
     padding: 1rem;
     list-style-type: none;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 .main_nav li {padding: 1rem;}
