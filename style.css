@@ -45,7 +45,11 @@ body{
 
 .main_nav li {padding: 1rem;}
 
-.icones{display: flex; padding: 1rem;}
+.icones{
+    display: flex; 
+    padding: 1rem;
+    align-items: center;
+}
 
 .icones i {padding: 1rem;}
 
