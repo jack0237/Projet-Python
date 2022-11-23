@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200;300;400&display=swap');
 
 :root{
     --color1:#0a0906 ;
@@ -24,6 +24,12 @@
 
 body{
     background-color:var(--color2);
+}
+.main_page h1{
+    text-decoration:none;
+    color: white;
+    font-family: 'Lobster';
+    font-size: 30px;
 }
 .main_nav{
     display: flex;
@@ -51,7 +57,11 @@ body{
     align-items: center;
 }
 
-.icones i {padding: 1rem;}
+.icones i {
+    padding: 0.5em;
+    color: var(--color1);
+    
+}
 
 
 /* section */
