@@ -26,17 +26,28 @@ body{
     background-color:var(--color2);
 }
 .logo a{
+    align-content: center;
     text-decoration:none;
     color: rgb(0, 0, 0);
     font-family: 'Lobster';
     font-size: 25px;
 }
+/* ----------------------------------------------------NAV BAR */
 .main_nav{
+    overflow: hidden;
+    background-color: #666666;
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem 1rem;
     width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 15%) 0px 2px 4px 0px;
+    height: 56px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .main_nav a{text-decoration: none;}
@@ -72,6 +83,23 @@ body{
     text-decoration: none;
     cursor: pointer;
 }
+#sign-in:hover{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border-style: none;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 24px;
+    background: rgba(8, 148, 85, 0.39);
+    border-color: rgb(7, 102, 59);
+    box-shadow: 0px 0px 0px 1px inset;
+    color: rgb(7, 102, 59);
+    text-decoration: none;
+    cursor: pointer;
+}
 
 
 
@@ -82,7 +110,7 @@ body{
     color: var(--color4);
     display: flex;
     justify-content: space-between;
-    padding: 1rem 7rem;
+    padding: 8rem 7rem;
     background-color: var(--color1);
     align-items: center;
 }
