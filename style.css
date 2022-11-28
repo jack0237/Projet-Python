@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root{
     --color1:#FFB30E;
@@ -28,7 +29,7 @@ body{
 .logo a{
     align-content: center;
     text-decoration:none;
-    color: rgb(0, 0, 0);
+    color: #ff5a0e;
     font-family: 'Lobster';
     font-size: 25px;
 }
@@ -50,20 +51,22 @@ body{
     padding-right: 16px;
 }
 
-.main_nav a{text-decoration: none;}
+.main_nav a {text-decoration: none;}
 
 .main_nav ul{
     display: flex;
+    align-items: center;
     padding: 0rem;
     list-style-type: none;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 1.5rem;
 }
 
 .main_nav li {padding: 1rem;}
 .nb1{
-    font-family: 'Oswald';
-    font-size: 30px ;
+    color: black;
+    font-family: 'Poppins';
+    font-size: 20px ;
 }
 
 #sign-in{
@@ -187,11 +190,17 @@ body{
 
 
 
-.pro-ced{
+.pro-ced {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #col_2{
     background-color: var(--color11);
+}
+
+.tech {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
