@@ -170,18 +170,27 @@ body{
 
 /*                   class reduction                  */
 
+
+
 .red{
-    display: flex;
-    justify-content: space-between;
-    padding: 4rem 10rem 4rem 10rem;
-    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     margin-top: 5rem;
 }
-
-.red_2{
-    padding: 5px;
-    
+.reduction img{
+    border: 1rem;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    height: 20rem;
+    width: 20rem;
 }
+.reduction h1,p {
+    text-align: center;
+    width: 20rem;
+}
+
+
 
 .imager{
     width: 20rem;
@@ -215,10 +224,10 @@ body{
          ___________    _________      _______      ________       __      ___                
         /___    ___/|  /  ___   /|    /  ____/|    /  ___   /|    /  \    /  /|                                                   
         |__/  /|___|/ /  /__/  / /   /  /___ |/   /  /|_/  / /   /    \  /  / /                                                  
-          /  / /     /  ___   / /   /___   /|    /  /  /  / /   /  /\  \/  / /                                              
-      ___/  / /     /  /|_/  / /   _|__/  / /   /  /__/  / /   /  / /\    / /                                              
+          /  / /     /  ___   / /   /___   /|    /  / //  / /   /  /\  \/  / /                                              
+      ___/  / /     /  /|_/  / /   _|__/  / /   /  /_//  / /   /  / /\    / /                                              
      /_____/ /     /__/ //__/ /   /______/ /   /________/ /   /__/ /  \__/ /                                                 
-     |_____|/     |__| /|___|/    |______|/    |________|/    |__|/   |__|/                 
+     |_____|/     |___|/|___|/    |______|/    |________|/    |__|/   |__|/                 
 
 
 */
