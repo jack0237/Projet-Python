@@ -28,10 +28,15 @@
 body{
     background-color:var(--color2);
 }
+
 .logo a{
+	font-size: 72px;
+	background: -webkit-linear-gradient(rgba(255, 255, 255, 0.945),rgb(255, 17, 0));
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
     align-content: center;
     text-decoration:none;
-    color: #ff5a0e;
     font-family: 'Lobster';
     font-size: 25px;
 }
@@ -40,6 +45,7 @@ body{
     overflow: hidden;
     background-color: #666666;
     position: fixed;
+	z-index: 1000000000;
     top: 0;
     width: 100%;
     display: flex;
@@ -238,10 +244,37 @@ body{
 
 .img-fluid{
     height: 15cm;
+	position: relative;
+	top:0;
+	transition:1s top
+	
+
 }
 .img-fluid:hover{
-    height: 15.5cm;
+    animation: ani ease-in-out 2s;
+	top:0;
+	transition:1s top
 }
+
+@keyframes ani {
+    0% {
+		top:-35px;
+
+	}
+
+	50% {
+		
+     top:70px;
+	}
+
+	100% {
+        top:-35px;
+
+    }
+
+
+}
+
 
 .text-1 {
     font: 4em sans-serif;
